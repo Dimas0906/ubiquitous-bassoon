@@ -1,0 +1,16 @@
+body {
+    overflow: hidden;
+    background-color: #f8f5e8 !important;
+}
+
+.purple {
+    transform: rotate(-15deg);
+}
+
+.pink {
+    transform: rotate(-25deg);
+}
+
+.blue {
+    transform: rotate(-35deg);
+}
