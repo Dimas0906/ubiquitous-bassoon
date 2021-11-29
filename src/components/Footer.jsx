@@ -5,7 +5,7 @@ import avatar from '../Assets/Help Avatar.svg';
 
 function Footer() {
     return (
-        <div className="flex flex-col mb-16 mt-8 md:mt-0 md:flex-row md:justify-between md:items-center md:mb-0">
+        <div className="flex flex-col mb-20 mt-8 md:mt-0 md:flex-row md:justify-between md:items-center md:mb-0">
             <div className="left mb-5 md:my-0">
                 <ul className="flex flex-row">
                     <li className="opacity-75 mr-5 ">Facebook</li>

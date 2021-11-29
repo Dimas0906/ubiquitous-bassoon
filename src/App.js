@@ -32,17 +32,17 @@ function App() {
             </div>
 
             {/* mobile nav */}
-            <div className="md:hidden fixed bottom-0 h-16 bg-blue-600 text-white w-screen z-50">
-              <ul className="flex flex-row justify-between items-center py-3 mx-5">
-                <li className="flex flex-col justiffy-center items-center">
-                  <BiNotepad size="1.5em" />
-                  <span>Plans</span>
-                </li>
-                <li className="flex flex-col justiffy-center items-center">
+            <div className="md:hidden rounded-t-md fixed bottom-0 h-20 bg-blue-600 text-white w-screen z-50">
+              <ul className="flex flex-row justify-around items-center px-5 py-3">
+                <li className="flex flex-col justiffy-center items-center transition ease-in-out duration-500 active:scale-125 active:text-black">
                   <BiListCheck size="1.5em" />
                   <span>Find Domain</span>
                 </li>
-                <li className="flex flex-col justiffy-center items-center">
+                <li className="flex flex-col justiffy-center items-center transition ease-in-out duration-500 active:scale-125 active:text-black">
+                  <BiNotepad size="1.5em" />
+                  <span>Plans</span>
+                </li>
+                <li className="flex flex-col justiffy-center items-center transition ease-in-out duration-500 active:scale-125 active:text-black">
                   <BiQuestionMark size="1.5em" />
                   <span>Why Hoster</span>
                 </li>

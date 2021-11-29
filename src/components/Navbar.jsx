@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/hamburgerMenu.css'
+import '../styles/customStyle.css'
 
 // picture
 import logo from '../Assets/Logo.svg'
@@ -17,14 +17,14 @@ function Navbar() {
                     </div>
                     <div>
                         <ul className="md:flex md:flex-row items-center">
-                            <li className="opacity-75 md:mx-4">Plans</li>
-                            <li className="opacity-75 md:mx-4">Find Domain</li>
-                            <li className="opacity-75 md:mx-4">Why Hoster</li>
+                            <li className="opacity-75 md:mx-4 transition duration-500 ease-in-out hover:font-bold hover:cursor-pointer">Plans</li>
+                            <li className="opacity-75 md:mx-4 transition duration-500 ease-in-out hover:font-bold hover:cursor-pointer">Find Domain</li>
+                            <li className="opacity-75 md:mx-4 transition duration-500 ease-in-out hover:font-bold hover:cursor-pointer">Why Hoster</li>
                         </ul>
                     </div>
                     <div className="md:flex md:flex-row items-center">
-                        <a className="mx-4" href="#signin">Sign in</a>
-                        <a className="mx-4 text-white bg-blue-600 rounded-sm px-5 py-3" href="#waitlist">Join Waitlist</a>
+                        <a className="mx-4 transition duration-500 ease-in-out hover:font-bold hover:cursor-pointer" href="#signin">Sign in</a>
+                        <a className="customButton mx-4 text-white bg-blue-600 rounded-md px-5 py-3" href="#waitlist">Join Waitlist</a>
                     </div>
                 </header>
             </div>

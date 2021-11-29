@@ -1,7 +1,9 @@
 body {
     background-color: #f8f5e8 !important;
+    scroll-behavior: smooth !important;
 }
 
+/* image rotate */
 .purple {
     transform: rotate(-15deg);
 }
@@ -12,4 +14,15 @@ body {
 
 .blue {
     transform: rotate(-35deg);
+}
+
+/* custom effect */
+.customButton {
+    box-shadow: 0 5px #363535;
+}
+
+.customButton:active  {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
 }

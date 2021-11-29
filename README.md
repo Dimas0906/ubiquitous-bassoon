@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# Simple landing Page responsive
+    link: https://randomcode-1.netlify.app/
+    techStack: Create-react-app(ReactJs), TailwindCss, and Netlify-Cli.
+
+---
+
+## run / edit Project on Local:
+1. Clone Repo, and open folder.
+2. run command `npm install`.
+3. using tailwindcss to styling this project, run `npm run tailwind` to edit or style.
+4. and run `npm start` to run react on client rendering.
+5. happy coding.
+
+---
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

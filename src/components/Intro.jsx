@@ -25,7 +25,7 @@ function Intro() {
                 <p className="text-xl w-full mt-3 opacity-75 md:w-5/6">With hosterr, get your website up and running in on less than 5 minutes with most competitive pricing packages available online.</p>
                 <div className="flex flex-col md:flex-row md:my-3">
                     <input className="px-3 py-3 rounded-md my-2 md:px-5 md:py-3 md:rounded-sm" type="text" placeholder="Enter e-mail address" />
-                    <button className="px-3 py-3 rounded-md my-2 text-white bg-blue-600 md:px-5 md:py-3 md:rounded-sm md:mx-3">Join Waitlist</button>
+                    <button className="customButton px-3 py-3 rounded-md my-2 text-white bg-blue-600 md:px-5 md:py-3 md:rounded-md md:mx-3">Join Waitlist</button>
                 </div>
                 <div className="flex md:flex-row md:items-center">
                     <img src={check} alt=".." size="0.75em" />
