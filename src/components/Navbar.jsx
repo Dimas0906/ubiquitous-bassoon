@@ -1,20 +1,10 @@
-import React, {useState} from 'react'
+import React from 'react'
 import '../styles/hamburgerMenu.css'
 
 // picture
 import logo from '../Assets/Logo.svg'
 
 function Navbar() {
-    // action hamburger menu
-    const [menuStatus, setMenuStatus] = useState('close');
-
-    const hamburgerAction = () => {
-        if(menuStatus === 'close'){
-            setMenuStatus('open')
-        } else {
-            setMenuStatus('close')
-        }
-    }
 
     return (
         <div className="z-0">
